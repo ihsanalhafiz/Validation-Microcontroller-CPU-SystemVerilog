@@ -1,0 +1,112 @@
+{C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/memory.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/memory.sv}
+QuestaSim-64 vlog 10.5c Compiler 2016.07 Jul 21 2016
+-- Compiling package mem_package
+-- Importing package instr_package
+-- Compiling package memory_sv_unit
+-- Importing package instr_package
+-- Importing package mem_package
+-- Compiling program memory
+
+Top level modules:
+	memory
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/top.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/top.sv}
+QuestaSim-64 vlog 10.5c Compiler 2016.07 Jul 21 2016
+-- Compiling package top_sv_unit
+-- Importing package instr_package
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/instr_package.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/instr_package.sv}
+QuestaSim-64 vlog 10.5c Compiler 2016.07 Jul 21 2016
+-- Compiling package instr_package
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/ALU.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/ALU.vhd}
+QuestaSim-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture behavioural of ALU
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/micro_assembly_code.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/micro_assembly_code.vhd}
+QuestaSim-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package micro_assembly_code
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/test_cpu_advanced.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/test_cpu_advanced.vhd}
+QuestaSim-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package util
+-- Loading package micro_assembly_code
+-- Compiling entity test_cpu
+-- Compiling architecture test_cpu_advanced of test_cpu
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/register_file.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/register_file.vhd}
+QuestaSim-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture RTL of register_file
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/datapath.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/datapath.vhd}
+QuestaSim-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity datapath
+-- Compiling architecture RTL of datapath
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/cpu.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\ihsan\Documents\KTH Master Embedded Systems\IL2203\Lab SV 2\cpu.vhd}
+QuestaSim-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package micro_assembly_code
+-- Compiling entity cpu
+-- Compiling architecture behave of cpu
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/SV_RAND_CHECK.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/SV_RAND_CHECK.sv}
+QuestaSim-64 vlog 10.5c Compiler 2016.07 Jul 21 2016
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/microcode_fsm.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/microcode_fsm.vhd}
+QuestaSim-64 vcom 10.5c Compiler 2016.07 Jul 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package micro_assembly_code
+-- Compiling entity microcode_fsm
+-- Compiling architecture behave of microcode_fsm
+
+} {} {}} {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/mem_class.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/ihsan/Documents/KTH Master Embedded Systems/IL2203/Lab SV 2/mem_class.sv}
+QuestaSim-64 vlog 10.5c Compiler 2016.07 Jul 21 2016
+-- Compiling package mem_package
+-- Importing package instr_package
+
+Top level modules:
+	--none--
+
+} {} {}}

@@ -1,0 +1,16 @@
+Sun Oct 31 09:54:24 CET 2021
+Trace back: CLIPBOARD selection doesn't exist or form "STRING" not defined
+    while executing
+"selection get -selection CLIPBOARD"
+    (procedure "notepad::edit_postcmd" line 55)
+    invoked from within
+"notepad::edit_postcmd .np.mBar.edit"
+    ("eval" body line 1)
+    invoked from within
+"eval $post_cmd"
+    (procedure "::Vsimmenu::DefaultMenuPostCmd" line 41)
+    invoked from within
+"::Vsimmenu::DefaultMenuPostCmd .np.mBar.edit {notepad::edit_postcmd .np.mBar.edit} SetMenuState"
+    (menu preprocess)
+  <2:C:/questasim64_10.5c/win64/tk8.5/bgerror.tcl:92: ::tkerror {CLIPBOARD selection doesn't exist or form "STRING" not defined}
+  <1:eval:1: ::tk::dialog::error::bgerror {CLIPBOARD selection doesn't exist or form "STRING" not defined}
